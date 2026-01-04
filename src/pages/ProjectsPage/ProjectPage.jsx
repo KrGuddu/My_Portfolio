@@ -28,7 +28,7 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
-              previewLink={"https://thereactquizz.netlify.app/"}
+              previewLink={"https://facevue-8c.netlify.app/"}
               githubLink={"https://github.com/KrGuddu"}
               projectName={"FaceVue (A Face Recognition Apps)"}
               projectDetails={

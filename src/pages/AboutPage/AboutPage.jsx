@@ -26,7 +26,7 @@ function AboutPage() {
                   timeline_title={"Web Developer"}
                   location={"Aarvi Decor And Furnishing Private Limited, Noida, U.P. 201303"}
                   details={
-                    `Designed and developed responsive web applications with optimized performance, code reviews, and modern tech to ensure seamless user experience.`
+                    `Built responsive web apps with modern tech and optimized performance to ensure seamless user experience.`
                   }
                 />
               </div>
@@ -37,27 +37,24 @@ function AboutPage() {
                   timeline_title={"Software Developer"}
                   location={"Qspiders Software Solutions Pvt. Ltd. Noida, U.P."}
                   details={
-                    "Engineered and maintained dynamic, user-centric web applications with clean code, responsive design, performance optimization with modern technologies."
+                    "Built responsive web apps with clean code and modern technologies."
                   }
                 />
               </div>
               <div className={`${style.action_container} ${style.left_container}`}>
                 <ActionBox
                   isleft={false}
-                  timeline={"Jan 2024 - Jul 2024"}
+                  timeline={"Jan 2023 - Jul 2023"}
                   timeline_title={"Java Programmer"}
                   location={"Friends Union for Energising Lives (FUEL), Mohali, PB"}
                   details={
-                    "Developed and maintained robust Java applications, focusing on object-oriented design, efficient backend logic, seamless integration with databases and APIs."
+                    "Developed Java applications using OOP, backend logic, and APIs."
                   }
                 />
               </div>
              
             </div>
-          </div>        
-
-
-
+          </div>
 
 
           <div className={style.timeline_container}>

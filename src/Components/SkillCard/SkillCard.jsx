@@ -17,15 +17,27 @@ function SkillCard({skill_name}) {
       };
 
 
+  // return (
+  //   <div className={styles.skill_card_component}>
+  //       <p className={styles.skill_name}>{skill_name}</p>
+  //       {/* <div className={styles.star_section}>
+  //           {
+  //               renderStars()
+  //           }
+  //       </div> */}
+  //   </div>
+  // )
   return (
-    <div className={styles.skill_card_component}>
-        <p className={styles.skill_name}>{skill_name}</p>
-        {/* <div className={styles.star_section}>
-            {
-                renderStars()
-            }
-        </div> */}
-    </div>
+    <motion.div
+      className={styles.skill_card_component}
+      whileHover={{ scale: 1.05 }}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+      viewport={{ once: true, amount: 0.2 }}
+    >
+      <p className={styles.skill_name}>{skill_name}</p>
+    </motion.div>
   )
 }
 

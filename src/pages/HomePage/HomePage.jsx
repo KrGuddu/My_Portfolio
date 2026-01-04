@@ -54,7 +54,9 @@ function HomePage() {
             }}
             className={style.detail_text}
           >
-            <span>Hi,</span> I'm Guddu Kumar, a passionate ReactJS developer specializing in building dynamic and responsive web applications. With a strong foundation in modern JavaScript and React, I craft intuitive user interfaces and optimize performance to deliver seamless experiences. My expertise includes state management, component-based architecture, and integrating APIs. I thrive on solving complex challenges and continuously improving my skills to stay ahead in the evolving tech landscape.
+            <span>Hi Dear,</span> <span>I’m Guddu Kumar,</span> a passionate and results-driven Full Stack Software Developer specializing in building robust, scalable, and user-friendly web applications using React.js for the frontend and Java (Spring Boot) for the backend. With a strong foundation in both client-side and server-side development, I bring end-to-end development expertise—transforming ideas into fully functional digital products.
+            My skill set includes modern frontend technologies like HTML5, CSS3, JavaScript (ES6+), Redux, Tailwind CSS, and responsive design principles, combined with powerful backend technologies such as Java, Spring Boot, REST APIs, MySQL, and Hibernate. I have hands-on experience in version control (Git), build tools (Maven), and deployment on cloud platforms.
+            I take pride in writing clean, maintainable code and collaborating closely with cross-functional teams to deliver high-quality software solutions. Whether it's developing dynamic single-page applications or designing secure backend architectures, I aim to create seamless user experiences and efficient systems.
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: "-7vw" }}
@@ -65,7 +67,7 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/18y01p_mXVG9DZRLAER0cWNJKzUJ7nAeC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1vhFKhBdTcQDwg0LTJMpHRjvEiXm3jEwA/view?usp=drive_link"
             >
             
               Download CV
