@@ -70,19 +70,21 @@ npm install
 npm run dev
 
 ```
-- **Admin Dashboard**  
+
+## 🌐 Featured Projects
+- **📊 Admin Dashboard**  
   Live: [shoprevive.netlify.app](https://my-admin-dash.netlify.app/)  
   GitHub: [KrGuddu/e-commerce-apps](https://github.com/KrGuddu/react-admin-dashboard)
 
-- **ShopRevive – E-Commerce Website**  
+- **🛒 ShopRevive – E-Commerce Website**  
   Live: [shoprevive.netlify.app](https://shoprevive.netlify.app/)  
   GitHub: [KrGuddu/e-commerce-apps](https://github.com/KrGuddu/e-commerce-apps)
 
-- **FaceVue – Face Detection App**  
+- **🤖 FaceVue – Face Detection App**  
   Live: [facevue-8c.netlify.app](https://facevue.netlify.app/)  
   GitHub: [KrGuddu/react-face-detection-app](https://github.com/KrGuddu/react-face-detection-app)
 
-- **TasteVista – Restaurant Website**  
+- **🍽️ TasteVista – Restaurant Website**  
   Live: [tastevista.netlify.app](https://tastevista.netlify.app/)  
   GitHub: [KrGuddu/restaurant-app](https://github.com/KrGuddu/restaurant-app)
 
