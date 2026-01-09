@@ -8,7 +8,7 @@ A personal portfolio website showcasing my skills, projects, and experience as a
 
 ## 🌐 Live Portfolio
 
-🔗 https://guddudev.netlify.app/
+🔗 https://krguddu.netlify.app
 
 ---
 
@@ -93,6 +93,6 @@ npm run dev
 **Mr. Guddu Kumar**  
 Frontend / React Developer
 
-🌐 Portfolio: https://guddudev.netlify.app
+🌐 Portfolio: https://krguddu.netlify.app
 
 🐙 GitHub: https://github.com/KrGuddu
