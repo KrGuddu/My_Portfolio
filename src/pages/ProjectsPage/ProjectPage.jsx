@@ -6,7 +6,10 @@ import marketingIMG from "../../assets/marketingIMG.png";
 import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from "../../assets/safecamIMG.png";
 import quizIMG from "../../assets/quizIMG.JPG";
-import weatherAppImg from '../../assets/weaht.jpg'
+// import weatherAppImg from '../../assets/weaht.jpg'
+import ecommerce from "../../assets/ecommerce.png";
+import WorldImg from "../../assets/WorldImg.png";
+import Admin_Dash from "../../assets/Admin_Dash.png";
 // import shopping-apps from '../../assets/shopping-apps.jpg'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
@@ -28,9 +31,55 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
-              previewLink={"https://facevue-8c.netlify.app/"}
-              githubLink={"https://github.com/KrGuddu"}
-              projectName={"FaceVue (A Face Recognition Apps)"}
+              previewLink={"https://worldxploree.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/react_country"}
+              projectName={"WorldXplore)"}
+              projectDetails={
+                "WorldXplore is a modern React-based web application that enables users to explore comprehensive country data with an intuitive interface, advanced filtering, and responsive design."
+              }
+              demoImage={WorldImg}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://my-admin-dash.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/react-admin-dashboard"}
+              projectName={"Admin Dashboard"}
+              projectDetails={
+                "Admin Dashboard is a scalable web application designed to manage data and users efficiently, featuring interactive analytics, role-based access, and a clean, responsive user interface."
+              }
+              demoImage={Admin_Dash}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://shoprevive.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/e-commerce-apps"}
+              projectName={"ShopRevive"}
+              projectDetails={
+                "Created using ReactJS and CSS, focusing on secure authentication, session management, protected routes, responsive layouts, and a smooth, user-friendly shopping experience."
+              }
+              demoImage={ecommerce}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://facevue.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/react-face-detection-app"}
+              projectName={"FaceVue"}
               projectDetails={
                 "Developed a real-time face recognition web app using React and face-api.js. Integrated webcam access to detect faces, expressions, and landmarks, with image capture and upload functionality with ML processing."
               }
@@ -43,29 +92,16 @@ function Projects() {
               ]}
             />
             <ProjectCard
-              previewLink={"https://shoprevive.netlify.app/"}
-              githubLink={"https://github.com/KrGuddu"}
-              projectName={"ShopRevive (E-Commerce Website)"}
-              projectDetails={
-                "Created & designed with ReactJS and CSS, focusing on user authentication, data security, real-time user status, session management, and responsive layouts."
-              }
-              demoImage={weatherAppImg}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
-              ]}
-            />
-
-            <ProjectCard
               previewLink={"https://tastevista.netlify.app/"}
               githubLink={"https://github.com/KrGuddu"}
-              projectName={"TasteVista (Restaurant Website)"}
+              projectName={"TasteVista"}
               projectDetails={
-                "Create with reactJs with advanced features like Online Ordering and Reservation System with table, Interactive Menu Filters, Customer Reviews, Ratings and many more."
+                "TasteVista is a modern ReactJS-based restaurant application featuring online ordering, table reservations, interactive menu filters, customer reviews, ratings, responsive design, and a seamless dining experience."
               }
+              // projectDetails={
+              //   "Create with reactJs with advanced features like Online Ordering and Reservation System with table, Interactive Menu Filters, Customer Reviews, Ratings and many more."
+              //   "Or, Created using ReactJS and CSS, focusing on secure authentication, session management, protected routes, responsive layouts, and a smooth, user-friendly shopping experience."
+              // }
               demoImage={teamtrackrIMG}
               key={"Team Trackr App"}
               skill_img={[
@@ -78,9 +114,9 @@ function Projects() {
             <ProjectCard
               previewLink={"https://homenexus.netlify.app/"}
               githubLink={"https://github.com/KrGuddu"}
-              projectName={"HomeNexus (Real Estate Website  )"}
+              projectName={"HomeNexus"}
               projectDetails={
-                "Create using ReactJS,CSS focusing on user authentication, data security, session management, Advanced Search & Filtering by location, price, property."
+                "HomeNexus is a modern real estate web application built with ReactJS, enabling users to explore property listings through an intuitive interface, responsive design, and smooth navigation experience."
               }
               demoImage={marketingIMG}
               key={"Marketing Solutions Webpage"}
