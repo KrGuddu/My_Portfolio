@@ -5,7 +5,7 @@ import teamtrackrIMG from "../../assets/teamtrackrIMG.png";
 import marketingIMG from "../../assets/marketingIMG.png";
 import travelHookIMG from "../../assets/travelhookIMG.png";
 import safecamIMG from "../../assets/safecamIMG.png";
-import quizIMG from "../../assets/quizIMG.JPG";
+import quizIMG from "../../assets/quizIMG.jpg";
 // import weatherAppImg from '../../assets/weaht.jpg'
 import ecommerce from "../../assets/ecommerce.png";
 import WorldImg from "../../assets/WorldImg.png";
