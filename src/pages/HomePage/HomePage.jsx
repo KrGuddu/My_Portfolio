@@ -54,9 +54,9 @@ function HomePage() {
             }}
             className={style.detail_text}
           >
-            <span>Hi Dear,</span> <span>I’m Guddu Kumar,</span> a passionate and results-driven Full Stack Software Developer specializing in building robust, scalable, and user-friendly web applications using React.js for the frontend and Java (Spring Boot) for the backend. With a strong foundation in both client-side and server-side development, I bring end-to-end development expertise—transforming ideas into fully functional digital products.
-            My skill set includes modern frontend technologies like HTML5, CSS3, JavaScript (ES6+), Redux, Tailwind CSS, and responsive design principles, combined with powerful backend technologies such as Java, Spring Boot, REST APIs, MySQL, and Hibernate. I have hands-on experience in version control (Git), build tools (Maven), and deployment on cloud platforms.
-            I take pride in writing clean, maintainable code and collaborating closely with cross-functional teams to deliver high-quality software solutions. Whether it's developing dynamic single-page applications or designing secure backend architectures, I aim to create seamless user experiences and efficient systems.
+            <span>Hi👋 </span>
+            <bold> I’m Guddu Kumar,</bold> a Frontend Developer (React.js) skilled in building modern, responsive web applications. Experienced in React.js, JavaScript (ES6+), HTML, CSS, REST API integration, and reusable component design. I’ve worked on e-commerce platforms, dashboards, and data-driven apps, following clean code practices. Focused on creating user-centric, scalable applications with maintainable code. Skilled at problem-solving, debugging, and collaborating in agile teams.
+
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: "-7vw" }}
@@ -67,10 +67,10 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/1vhFKhBdTcQDwg0LTJMpHRjvEiXm3jEwA/view?usp=drive_link"
+              href="https://drive.google.com/file/d/18Mk27OjIwbBf__hdR_Nxk_zP-tZIbgat/view?usp=drive_link"
             >
             
-              Download CV
+              Resume 🡻
             </a>
           </motion.button>
         </div>

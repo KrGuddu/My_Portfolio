@@ -23,7 +23,8 @@ function Navbar() {
       <div ref={navbar}  className={style.navbar}>
         <div>
           <NavLink className={style.logo} to="/">
-            Guddu Kumar
+            {/* Guddu Kumar */}
+            krguddu.in
           </NavLink>
         </div>
         <ul className={style.navlist}>

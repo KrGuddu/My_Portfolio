@@ -53,6 +53,11 @@
   color: #d847db;
   font-size: large;
 }
+.detail_text bold{
+  color: #00b6be;
+  font-size: large;
+  font-weight: 700;
+}
 
 #designation {
   color: var(--white);
