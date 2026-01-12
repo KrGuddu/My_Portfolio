@@ -41,7 +41,7 @@ function HomePage() {
             }}
             className={style.bottom_text_style}
           >
-            &lt;Software Developer/&gt;
+            &lt;Frontend Developer/&gt;
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
