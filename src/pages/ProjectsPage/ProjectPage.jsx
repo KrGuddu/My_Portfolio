@@ -33,7 +33,7 @@ function Projects() {
             <ProjectCard
               previewLink={"https://worldxploree.netlify.app"}
               githubLink={"https://github.com/KrGuddu/react_country"}
-              projectName={"WorldXplore)"}
+              projectName={"WorldXplore"}
               projectDetails={
                 "WorldXplore is a modern React-based web application that enables users to explore comprehensive country data with an intuitive interface, advanced filtering, and responsive design."
               }
