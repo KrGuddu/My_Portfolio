@@ -62,7 +62,7 @@ function Contact() {
               <div className={styles.symbol}>
                 <i className={`fa-solid fa-location-dot`}></i>
               </div>
-              <p>Som Bazar, Sector-45, Noida, Uttarpradesh, 201303</p>
+              <p>Noida, India</p>
             </div>
 
             {/* Phone Services  */}
