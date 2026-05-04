@@ -2,7 +2,8 @@ import Navbar from "../../Components/Navbar/Navbar.jsx";
 import style from "./HomePage.module.css";
 // import HeroImage from "../../assets/heroImage.JPG";
 // import HeroImage from "../../assets/IMG_20231003_093856.JPG";
-import HeroImage from "../../assets/demo.jpg"
+// import HeroImage from "../../assets/demo.jpg"
+import HeroImage from "../../assets/guddu.png"
 import { motion } from "framer-motion";
 
 function HomePage() {
@@ -55,7 +56,7 @@ function HomePage() {
             className={style.detail_text}
           >
             <span>Hi👋 </span>
-            <bold> I’m Guddu Kumar,</bold> a Frontend Developer (React.js) skilled in building modern, responsive web applications. Experienced in React.js, JavaScript (ES6+), HTML, CSS, REST API integration, and reusable component design. I’ve worked on e-commerce platforms, dashboards, and data-driven apps, following clean code practices. Focused on creating user-centric, scalable applications with maintainable code. Skilled at problem-solving, debugging, and collaborating in agile teams.
+            <bold> I’m </bold> a React.js Frontend Developer building scalable, efficient web apps. I specialize in modern JavaScript, API integration, and crafting clean, user-focused interfaces.
 
           </motion.p>
           <motion.button
@@ -67,7 +68,7 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/18Mk27OjIwbBf__hdR_Nxk_zP-tZIbgat/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1slO15Zhtja1cGmzdU7m2OwX8ayWttCcQ/view?usp=drive_link"
             >
             
               Resume 🡻

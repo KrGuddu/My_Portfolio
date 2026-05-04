@@ -3,13 +3,15 @@ import styles from "./ProjectPage.module.css";
 import ProjectCard from "../../Components/ProjectCard/projectCard";
 import teamtrackrIMG from "../../assets/teamtrackrIMG.png";
 import marketingIMG from "../../assets/marketingIMG.png";
-import travelHookIMG from "../../assets/travelhookIMG.png";
-import safecamIMG from "../../assets/safecamIMG.png";
+// import travelHookIMG from "../../assets/travelhookIMG.png";
+// import safecamIMG from "../../assets/safecamIMG.png";
 import quizIMG from "../../assets/quizIMG.jpg";
 // import weatherAppImg from '../../assets/weaht.jpg'
 import ecommerce from "../../assets/ecommerce.png";
 import WorldImg from "../../assets/WorldImg.png";
 import Admin_Dash from "../../assets/Admin_Dash.png";
+import devcollabx from "../../assets/devcollabx.png";
+import owncartx from "../../assets/owncartx.png";
 // import shopping-apps from '../../assets/shopping-apps.jpg'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
@@ -31,11 +33,58 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
+              previewLink={"https://github.com/KrGuddu/ownCartX-backend"}
+              githubLink={"https://github.com/KrGuddu/ownCartX-backend"}
+              projectName={"OwnCartX - Ongoing"}
+              projectDetails={
+                "Developed AI-powered full-stack eCommerce platform with React and Node.js, featuring secure authentication, Stripe payments, order management, and product recommendations."
+              }
+              demoImage={owncartx}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+                "https://cdn.simpleicons.org/express/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/stripe-4.svg",
+                "https://cdn.worldvectorlogo.com/logos/postman.svg",
+                "https://cdn.worldvectorlogo.com/logos/google-icon.svg",
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://devcollabx-client.onrender.com"}
+              githubLink={"https://github.com/KrGuddu/devcollabx-client"}
+              projectName={"devcollabx"}
+              projectDetails={
+                "DevCollabX is a real-time collaborative code editor where developers can join or create rooms using a unique Room ID and code together instantly."
+              }
+              demoImage={devcollabx}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+                "https://cdn.simpleicons.org/express/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+                "https://cdn.simpleicons.org/socketdotio/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/postman.svg",
+              ]}
+            />
+
+            <ProjectCard
               previewLink={"https://worldxploree.netlify.app"}
               githubLink={"https://github.com/KrGuddu/react_country"}
               projectName={"WorldXplore"}
               projectDetails={
-                "WorldXplore is a modern React-based web application that enables users to explore comprehensive country data with an intuitive interface, advanced filtering, and responsive design."
+                "WorldXplore is a modern React-based web app that enables users to explore country data with an intuitive interface, advanced filtering, and responsive design."
               }
               demoImage={WorldImg}
               skill_img={[
@@ -43,6 +92,13 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/axios/5A29E4",
+                "https://cdn.simpleicons.org/openapiinitiative/6BA539",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
@@ -58,6 +114,13 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/chartdotjs/FF6384",
+                "https://cdn.simpleicons.org/apachespark/E25A1C",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
@@ -73,7 +136,13 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg"
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+                "https://cdn.simpleicons.org/openapiinitiative/6BA539",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
@@ -81,7 +150,7 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu/react-face-detection-app"}
               projectName={"FaceVue"}
               projectDetails={
-                "Developed a real-time face recognition web app using React and face-api.js. Integrated webcam access to detect faces, expressions, and landmarks, with image capture and upload functionality with ML processing."
+                "Developed real-time face recognition web app using React and face-api.js. Integrated webcam to detect faces, expressions, and landmarks, with image capture and upload functionality."
               }
               demoImage={quizIMG}
               skill_img={[
@@ -89,14 +158,20 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.simpleicons.org/tensorflow/FF6F00",
+                "https://cdn.simpleicons.org/opencv/5C3EE8",
+                "https://cdn.simpleicons.org/webrtc/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
               previewLink={"https://tastevista.netlify.app/"}
-              githubLink={"https://github.com/KrGuddu"}
+              githubLink={"https://github.com/KrGuddu/restaurant-app"}
               projectName={"TasteVista"}
               projectDetails={
-                "TasteVista is a modern ReactJS-based restaurant application featuring online ordering, table reservations, interactive menu filters, customer reviews, ratings, responsive design, and a seamless dining experience."
+                "TasteVista is a React-based restaurant app featuring online ordering, table reservations, menu filters, customer reviews, ratings, and responsive design."
               }
               // projectDetails={
               //   "Create with reactJs with advanced features like Online Ordering and Reservation System with table, Interactive Menu Filters, Customer Reviews, Ratings and many more."
@@ -109,6 +184,14 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.simpleicons.org/openapiinitiative/6BA539",
+                "https://cdn.simpleicons.org/googlemaps/4285F4",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
@@ -116,7 +199,7 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu"}
               projectName={"HomeNexus"}
               projectDetails={
-                "HomeNexus is a modern real estate web application built with ReactJS, enabling users to explore property listings through an intuitive interface, responsive design, and smooth navigation experience."
+                "HomeNexus is a React-based real estate web app enabling users to explore property listings with an intuitive interface, responsive design, and smooth navigation."
               }
               demoImage={marketingIMG}
               key={"Marketing Solutions Webpage"}
@@ -125,6 +208,13 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.simpleicons.org/openapiinitiative/6BA539",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             {/* <ProjectCard
