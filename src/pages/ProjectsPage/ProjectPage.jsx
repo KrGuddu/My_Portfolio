@@ -42,7 +42,7 @@ function Projects() {
               demoImage={owncartx}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
@@ -51,9 +51,9 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
                 "https://cdn.simpleicons.org/express/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/stripe-4.svg",
+                // "https://cdn.worldvectorlogo.com/logos/stripe-4.svg",
                 "https://cdn.worldvectorlogo.com/logos/postman.svg",
-                "https://cdn.worldvectorlogo.com/logos/google-icon.svg",
+                // "https://cdn.worldvectorlogo.com/logos/google-icon.svg",
               ]}
             />
             <ProjectCard
@@ -66,7 +66,7 @@ function Projects() {
               demoImage={devcollabx}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
@@ -75,7 +75,7 @@ function Projects() {
                 "https://cdn.simpleicons.org/express/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
                 "https://cdn.simpleicons.org/socketdotio/ffffff",
-                "https://cdn.worldvectorlogo.com/logos/postman.svg",
+                // "https://cdn.worldvectorlogo.com/logos/postman.svg",
               ]}
             />
 
@@ -89,7 +89,7 @@ function Projects() {
               demoImage={WorldImg}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
@@ -97,8 +97,8 @@ function Projects() {
                 "https://cdn.simpleicons.org/axios/5A29E4",
                 "https://cdn.simpleicons.org/openapiinitiative/6BA539",
                 "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                "https://cdn.simpleicons.org/github/ffffff",
-                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
+                // "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
             <ProjectCard
@@ -111,7 +111,7 @@ function Projects() {
               demoImage={Admin_Dash}
               skill_img={[
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
@@ -119,7 +119,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
                 "https://cdn.simpleicons.org/chartdotjs/FF6384",
                 "https://cdn.simpleicons.org/apachespark/E25A1C",
-                "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.simpleicons.org/github/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
@@ -137,11 +137,11 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
-                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
-                "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
+                // "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                // "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
                 "https://cdn.simpleicons.org/openapiinitiative/6BA539",
                 "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.simpleicons.org/github/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
@@ -158,11 +158,11 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.simpleicons.org/tensorflow/FF6F00",
+                // "https://cdn.simpleicons.org/tensorflow/FF6F00",
                 "https://cdn.simpleicons.org/opencv/5C3EE8",
                 "https://cdn.simpleicons.org/webrtc/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.simpleicons.org/github/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
@@ -185,12 +185,12 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
-                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                // "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
                 "https://cdn.simpleicons.org/reactrouter/CA4245",
                 "https://cdn.simpleicons.org/openapiinitiative/6BA539",
                 "https://cdn.simpleicons.org/googlemaps/4285F4",
                 "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.simpleicons.org/github/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
@@ -209,11 +209,11 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                 "https://cdn.worldvectorlogo.com/logos/redux.svg",
-                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                // "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
                 "https://cdn.simpleicons.org/reactrouter/CA4245",
                 "https://cdn.simpleicons.org/openapiinitiative/6BA539",
                 "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                "https://cdn.simpleicons.org/github/ffffff",
+                // "https://cdn.simpleicons.org/github/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
