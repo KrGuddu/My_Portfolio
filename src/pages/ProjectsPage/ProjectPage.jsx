@@ -12,6 +12,8 @@ import WorldImg from "../../assets/WorldImg.png";
 import Admin_Dash from "../../assets/Admin_Dash.png";
 import devcollabx from "../../assets/devcollabx.png";
 import owncartx from "../../assets/owncartx.png";
+import flight from "../../assets/flight.png";
+import EmpManagement from "../../assets/EmpManagement.png";
 // import shopping-apps from '../../assets/shopping-apps.jpg'
 import { motion } from "framer-motion";
 import ComponentTitle from "../../Components/ComponentTitle/ComponentTitle";
@@ -33,7 +35,7 @@ function Projects() {
             className={styles.projects_component}
           >
             <ProjectCard
-              previewLink={"https://github.com/KrGuddu/ownCartX-backend"}
+              previewLink={"https://owncartx.vercel.app"}
               githubLink={"https://github.com/KrGuddu/ownCartX-backend"}
               projectName={"OwnCartX - Ongoing"}
               projectDetails={
@@ -59,7 +61,7 @@ function Projects() {
             <ProjectCard
               previewLink={"https://devcollabx-client.onrender.com"}
               githubLink={"https://github.com/KrGuddu/devcollabx-client"}
-              projectName={"devcollabx"}
+              projectName={"DevCollabX"}
               projectDetails={
                 "DevCollabX is a real-time collaborative code editor where developers can join or create rooms using a unique Room ID and code together instantly."
               }
@@ -74,6 +76,74 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
                 "https://cdn.simpleicons.org/express/ffffff",
                 "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
+                "https://cdn.simpleicons.org/socketdotio/ffffff",
+                // "https://cdn.worldvectorlogo.com/logos/postman.svg",
+              ]}
+            />
+
+            <ProjectCard
+              previewLink={"https://my-admin-dash.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/react-admin-dashboard"}
+              projectName={"Admin Dashboard"}
+              projectDetails={
+                "Admin Dashboard is a scalable web application designed to manage data and users efficiently, featuring interactive analytics, role-based access, and a clean, responsive user interface."
+              }
+              demoImage={Admin_Dash}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/chartdotjs/FF6384",
+                "https://cdn.simpleicons.org/apachespark/E25A1C",
+                // "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
+              ]}
+            />
+
+            <ProjectCard
+              previewLink={"https://facevue.netlify.app"}
+              githubLink={"https://github.com/KrGuddu/react-face-detection-app"}
+              projectName={"FaceVue"}
+              projectDetails={
+                "Developed real-time face recognition web app using React and face-api.js. Integrated webcam to detect faces, expressions, and landmarks, with image capture and upload functionality."
+              }
+              demoImage={quizIMG}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                // "https://cdn.simpleicons.org/tensorflow/FF6F00",
+                "https://cdn.simpleicons.org/opencv/5C3EE8",
+                "https://cdn.simpleicons.org/webrtc/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                // "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
+              ]}
+            />
+
+            <ProjectCard
+              previewLink={"https://github.com/KrGuddu/flight-search-engine"}
+              githubLink={"https://github.com/KrGuddu/flight-search-engine"}
+              projectName={"Flight Search Engine"}
+              projectDetails={
+                "Built a responsive flight search engine with real-time booking, filters, and API integration."
+              }
+              demoImage={flight}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg",
+                "https://cdn.simpleicons.org/express/ffffff",
+                // "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg",
                 "https://cdn.simpleicons.org/socketdotio/ffffff",
                 // "https://cdn.worldvectorlogo.com/logos/postman.svg",
               ]}
@@ -101,28 +171,7 @@ function Projects() {
                 // "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
-            <ProjectCard
-              previewLink={"https://my-admin-dash.netlify.app"}
-              githubLink={"https://github.com/KrGuddu/react-admin-dashboard"}
-              projectName={"Admin Dashboard"}
-              projectDetails={
-                "Admin Dashboard is a scalable web application designed to manage data and users efficiently, featuring interactive analytics, role-based access, and a clean, responsive user interface."
-              }
-              demoImage={Admin_Dash}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                // "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                "https://cdn.worldvectorlogo.com/logos/redux.svg",
-                "https://cdn.simpleicons.org/reactrouter/CA4245",
-                "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
-                "https://cdn.simpleicons.org/chartdotjs/FF6384",
-                "https://cdn.simpleicons.org/apachespark/E25A1C",
-                // "https://cdn.simpleicons.org/github/ffffff",
-                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
-              ]}
-            />
+
             <ProjectCard
               previewLink={"https://shoprevive.netlify.app"}
               githubLink={"https://github.com/KrGuddu/e-commerce-apps"}
@@ -145,27 +194,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
-            <ProjectCard
-              previewLink={"https://facevue.netlify.app"}
-              githubLink={"https://github.com/KrGuddu/react-face-detection-app"}
-              projectName={"FaceVue"}
-              projectDetails={
-                "Developed real-time face recognition web app using React and face-api.js. Integrated webcam to detect faces, expressions, and landmarks, with image capture and upload functionality."
-              }
-              demoImage={quizIMG}
-              skill_img={[
-                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-                // "https://cdn.simpleicons.org/tensorflow/FF6F00",
-                "https://cdn.simpleicons.org/opencv/5C3EE8",
-                "https://cdn.simpleicons.org/webrtc/ffffff",
-                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
-                // "https://cdn.simpleicons.org/github/ffffff",
-                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
-              ]}
-            />
+
             <ProjectCard
               previewLink={"https://tastevista.netlify.app/"}
               githubLink={"https://github.com/KrGuddu/restaurant-app"}
@@ -194,6 +223,35 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
+
+            <ProjectCard
+              previewLink={
+                "https://github.com/KrGuddu/Employee_Management_Systems"
+              }
+              githubLink={
+                "https://github.com/KrGuddu/Employee_Management_Systems"
+              }
+              projectName={"Employee Management System"}
+              projectDetails={
+                "Built MERN-based employee management system with authentication, payroll, attendance, and role-based dashboards."
+              }
+              demoImage={EmpManagement}
+              key={"Marketing Solutions Webpage"}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                "https://cdn.worldvectorlogo.com/logos/redux.svg",
+                // "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
+                "https://cdn.simpleicons.org/reactrouter/CA4245",
+                "https://cdn.simpleicons.org/openapiinitiative/6BA539",
+                "https://cdn.worldvectorlogo.com/logos/git-icon.svg",
+                // "https://cdn.simpleicons.org/github/ffffff",
+                "https://cdn.worldvectorlogo.com/logos/netlify.svg",
+              ]}
+            />
+
             <ProjectCard
               previewLink={"https://homenexus.netlify.app/"}
               githubLink={"https://github.com/KrGuddu"}
@@ -217,6 +275,7 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/netlify.svg",
               ]}
             />
+
             {/* <ProjectCard
               previewLink={"https://travelhook.netlify.app/"}
               githubLink={"https://github.com/KrGuddu"}
