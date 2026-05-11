@@ -92,7 +92,7 @@ function Navbar() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/krguddu684/"
+            href="https://www.linkedin.com/in/kr-guddu"
             target="_blank"
             rel="noopener noreferrer"
             className={style.link}
