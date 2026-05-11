@@ -68,7 +68,7 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/1slO15Zhtja1cGmzdU7m2OwX8ayWttCcQ/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13vcKPyL5s7ZL5a-iMGtfJ1R7_5g74tyO/view?usp=drive_link"
             >
             
               Resume 🡻
