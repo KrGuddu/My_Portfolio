@@ -39,7 +39,8 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu/ownCartX-backend"}
               projectName={"OwnCartX - Ongoing"}
               projectDetails={
-                "Developed AI-powered full-stack eCommerce platform with React and Node.js, featuring secure authentication, Stripe payments, order management, and product recommendations."
+                // "Developed AI-powered full-stack eCommerce platform with React and Node.js, featuring secure authentication, Stripe payments, order management, and product recommendations."
+                "Built an AI-powered eCommerce platform with React.js and Node.js, secure auth, Stripe payments, order management, and recommendations."
               }
               demoImage={owncartx}
               skill_img={[
@@ -86,7 +87,8 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu/react-admin-dashboard"}
               projectName={"Admin Dashboard"}
               projectDetails={
-                "Admin Dashboard is a scalable web application designed to manage data and users efficiently, featuring interactive analytics, role-based access, and a clean, responsive user interface."
+                // "Admin Dashboard is a scalable web application designed to manage data and users efficiently, featuring interactive analytics, role-based access, and a clean, responsive user interface."
+                "Developed a scalable Admin Dashboard featuring analytics, user management, role-based access, and a responsive design."
               }
               demoImage={Admin_Dash}
               skill_img={[
@@ -109,7 +111,8 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu/react-face-detection-app"}
               projectName={"FaceVue"}
               projectDetails={
-                "Developed real-time face recognition web app using React and face-api.js. Integrated webcam to detect faces, expressions, and landmarks, with image capture and upload functionality."
+                // "Developed real-time face recognition web app using React and face-api.js. Integrated webcam to detect faces, expressions, and landmarks, with image capture and upload functionality."
+                "Built a real-time face recognition app using React and face-api.js with webcam detection, landmarks, expressions, and image upload."
               }
               demoImage={quizIMG}
               skill_img={[
@@ -177,7 +180,8 @@ function Projects() {
               githubLink={"https://github.com/KrGuddu/e-commerce-apps"}
               projectName={"ShopRevive"}
               projectDetails={
-                "Created using ReactJS and CSS, focusing on secure authentication, session management, protected routes, responsive layouts, and a smooth, user-friendly shopping experience."
+                // "Created using ReactJS and CSS, focusing on secure authentication, session management, protected routes, responsive layouts, and a smooth, user-friendly shopping experience."
+                "Built a ReactJS eCommerce app with secure auth, session management, protected routes, responsive design, and smooth UX."
               }
               demoImage={ecommerce}
               skill_img={[

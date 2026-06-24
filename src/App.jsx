@@ -12,9 +12,8 @@ import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 function App() {
   return (
     <>
-    
       <BrowserRouter>
-      <ScrollToTop/>
+        <ScrollToTop />
         <Routes>
           <Route path="*" element={<PageNotFound />} />
           <Route path="/" element={<HomePage />} />
@@ -25,14 +24,11 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      
     </>
   );
 }
 
 export default App;
-
-
 
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
