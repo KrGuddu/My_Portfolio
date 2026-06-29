@@ -3,7 +3,7 @@ import style from "./HomePage.module.css";
 // import HeroImage from "../../assets/heroImage.JPG";
 // import HeroImage from "../../assets/IMG_20231003_093856.JPG";
 // import HeroImage from "../../assets/demo.jpg"
-import HeroImage from "../../assets/guddu.png"
+import HeroImage from "../../assets/guddu.png";
 import { motion } from "framer-motion";
 
 function HomePage() {
@@ -42,7 +42,7 @@ function HomePage() {
             }}
             className={style.bottom_text_style}
           >
-            &lt;Frontend Developer/&gt;
+            &lt;Full Stack Developer/&gt;
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -56,8 +56,9 @@ function HomePage() {
             className={style.detail_text}
           >
             <span>Hi👋 </span>
-            <bold> I’m </bold> a React.js Frontend Developer building scalable, efficient web apps. I specialize in modern JavaScript, API integration, and crafting clean, user-focused interfaces.
-
+            <bold> I’m </bold> a Full Stack Developer specializing in React.js,
+            Node.js, Express.js, PostgreSQL, and MongoDB. I build scalable,
+            responsive, and user-focused web applications.
           </motion.p>
           <motion.button
             initial={{ opacity: 0, x: "-7vw" }}
@@ -68,9 +69,8 @@ function HomePage() {
             <a
               className="link_under_button"
               target="_blank"
-              href="https://drive.google.com/file/d/13vcKPyL5s7ZL5a-iMGtfJ1R7_5g74tyO/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1X4OnnG8bWmiRZZxMqjgnK2ShublzvupT/view?usp=drive_link"
             >
-            
               Resume 🡻
             </a>
           </motion.button>
