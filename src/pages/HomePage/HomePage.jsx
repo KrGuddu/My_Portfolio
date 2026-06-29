@@ -71,7 +71,7 @@ function HomePage() {
               target="_blank"
               href="https://drive.google.com/file/d/1X4OnnG8bWmiRZZxMqjgnK2ShublzvupT/view?usp=drive_link"
             >
-              Resume 🡻
+              Resume ⭳
             </a>
           </motion.button>
         </div>
